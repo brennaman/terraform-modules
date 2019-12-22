@@ -6,3 +6,7 @@ variable "location_key" {
         westus2     = "wus2"
     }  
 }
+
+output "location_key" {
+  value = var.location_key
+}
